@@ -1,7 +1,0 @@
-pandas>=2.0
-duckdb>=1.0
-pyarrow>=12.0
-streamlit>=1.20
-openpyxl>=3.0
-tqdm>=4.64
-python-dotenv>=1.0

@@ -27,6 +27,7 @@ Thumbs.db
 .DS_Store
 '@ | Out-File -Encoding utf8 .gitignore
 
+# Project-specific files to ignore
 Notes.docx
 explore_data.ipynb
 requirements1.txt
