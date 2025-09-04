@@ -1,0 +1,32 @@
+cd "D:\ML_Projects\DE_hospital_price_transparency"
+
+@'
+# Python
+__pycache__/
+*.pyc
+.env
+DE1venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data and DB
+data/
+*.parquet
+*.duckdb
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+'@ | Out-File -Encoding utf8 .gitignore
+
+Notes.docx
+explore_data.ipynb
+requirements1.txt
